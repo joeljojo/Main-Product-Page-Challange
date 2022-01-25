@@ -1,0 +1,167 @@
+        .container_main {
+            margin: 100px;
+        }
+        
+        .upper {
+            display: flex;
+            margin: 75px;
+            border-bottom: 2px solid hsl(220, 14%, 75%);
+            ;
+        }
+        
+        .center_left {
+            display: flex;
+            gap: 350px;
+        }
+        
+        .upper .logo {
+            width: 250px;
+        }
+        
+        .topnav {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .topnav a {
+            text-decoration: none;
+            color: hsl(0, 0%, 0%);
+            opacity: 75%;
+        }
+        
+        .topnav_left {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        
+        .avarator img {
+            width: 35px;
+            height: 35px;
+        }
+        
+        .lower {
+            display: flex;
+            margin: 80px;
+            width: 750px;
+        }
+        
+        .left {
+            width: 50%;
+            border-radius: 12px 12px 0 0;
+            -webkit-border-radius: 12px 12px 0 0;
+            -moz-border-radius: 12px 12px 0 0;
+            -ms-border-radius: 12px 12px 0 0;
+            -o-border-radius: 12px 12px 0 0;
+        }
+        
+        .left .image img {
+            width: 100%;
+            border-radius: 12px;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            -ms-border-radius: 12px;
+            -o-border-radius: 12px;
+        }
+        
+        #first {
+            border: 2px solid hsl(26, 100%, 55%);
+            opacity: 0.4;
+        }
+        
+        .right {
+            width: 50%;
+            margin-left: 80px;
+        }
+        
+        .right h2 {
+            text-transform: uppercase;
+            color: hsl(26, 100%, 55%);
+            font-size: 16px;
+        }
+        
+        .right h3 span {
+            color: hsl(26, 100%, 55%);
+        }
+        
+        .right h4 del {
+            font-size: 16px;
+            color: hsl(220, 14%, 75%);
+        }
+        
+        .right p {
+            font-size: 16px;
+            color: hsl(220, 14%, 75%);
+        }
+        
+        .left_lower {
+            display: flex;
+        }
+        
+        .left_lower .quantity {
+            width: 50%;
+        }
+        
+        .left_lower .addtocart {
+            width: 50%;
+        }
+        
+        .plus_minufa-spin {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            background-color: hsl(223, 64%, 98%);
+            border-radius: 12px;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            -ms-border-radius: 12px;
+            -o-border-radius: 12px;
+            height: 35px;
+        }
+        
+        .display {
+            display: flex;
+            gap: 12px;
+            margin-top: 30px;
+        }
+        
+        .pic {
+            border-radius: 12px;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            -ms-border-radius: 12px;
+            -o-border-radius: 12px;
+        }
+        
+        .display .pic {
+            width: 25%;
+        }
+        
+        .pic img {
+            width: 100%;
+            border-radius: 12px;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            -ms-border-radius: 12px;
+            -o-border-radius: 12px;
+        }
+        
+        .addtocart img {
+            color: hsl(223, 64%, 98%);
+        }
+        
+        .addtocart button {
+            margin-left: 30px;
+            background-color: hsl(26, 100%, 55%);
+            border-radius: 6px;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            -ms-border-radius: 6px;
+            -o-border-radius: 6px;
+            width: 150px;
+            padding: 5px;
+            justify-content: space-around;
+            border-color: transparent;
+            color: hsl(223, 64%, 98%);
+        }
